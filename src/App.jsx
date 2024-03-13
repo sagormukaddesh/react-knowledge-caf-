@@ -15,9 +15,14 @@ function App() {
     setBookmark(newBookmarks);
   }
 
-  const handleMarkAsRead = (time) => {
+  const handleMarkAsRead = (id, time) => {
     const newReadingTime = readingTime + time;
     setReadingTime(newReadingTime);
+
+    // remove the read blog from bookmarks 
+    const remainingBookmark = bookmarks.filter(bookmark => bookmark.id !== id);
+    setBookmark(remainingBookmark);
+
 
   }
 
@@ -26,7 +31,7 @@ function App() {
       <Header></Header>
       <Banner></Banner>
       <div className="md:flex container mx-auto">
-        <Blogs 
+        <Blogs
           handleBookmark={handleBookmark}
           handleMarkAsRead={handleMarkAsRead}
         ></Blogs>

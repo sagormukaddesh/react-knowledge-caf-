@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { IoBookmarksOutline } from "react-icons/io5";
 const Blog = ({ blog, handleBookmark, handleMarkAsRead }) => {
-    const { cover, title, author, author_img, reading_time, posted_date, hashtags } = blog;
+    const { id, cover, title, author, author_img, reading_time, posted_date, hashtags } = blog;
     return (
         <div className="card mx-6 shadow-xl bg-amber-100">
             <figure><img src={cover} alt="Shoes" /></figure>
@@ -21,7 +21,7 @@ const Blog = ({ blog, handleBookmark, handleMarkAsRead }) => {
                     </div>
                     <div className='flex items-center gap-2'>
                         <p><span className='font-bold'> {reading_time} </span>min Read </p>
-                        <button onClick={()=> handleBookmark(blog)} className='hover:text-blue-700'><IoBookmarksOutline></IoBookmarksOutline> </button>
+                        <button onClick={() => handleBookmark(blog)} className='hover:text-blue-700'><IoBookmarksOutline></IoBookmarksOutline> </button>
                     </div>
                 </div>
                 <h2 className="card-title">{title}</h2>
@@ -32,8 +32,8 @@ const Blog = ({ blog, handleBookmark, handleMarkAsRead }) => {
                     }
                 </p>
                 <div className="card-actions ">
-                    <button onClick={()=> handleMarkAsRead(reading_time)}
-                    className="btn btn-secondary border-0 btn-sm">Mark Ass Read</button>
+                    <button onClick={() => handleMarkAsRead(id, reading_time)}
+                        className="btn btn-secondary border-0 btn-sm">Mark Ass Read</button>
                 </div>
             </div>
         </div>
@@ -43,7 +43,7 @@ const Blog = ({ blog, handleBookmark, handleMarkAsRead }) => {
 Blog.propTypes = {
     blog: PropTypes.object.isRequired,
     handleBookmark: PropTypes.func,
-    handleMarkAsRead:PropTypes.func
+    handleMarkAsRead: PropTypes.func
 
 }
 export default Blog;
