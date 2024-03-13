@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "cover": "https://images.unsplash.com/photo-1669023414166-a4cc7c0fe1f5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGVzNiUyMGphdmFzY3JpcHQlMjBpbWd8ZW58MHx8MHx8fDA%3D",
+    "title": "The Adventure Begins",
+    "author": "Alice Johnson",
+    "author_img": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww",
+    "posted_date": "2024-03-13",
+    "reading_time": 10,
+    "hashtags": [
+      "adventure",
+      "beginning",
+      "journey"
+    ]
+  },
+  {
+    "id": 2,
+    "cover": "https://images.unsplash.com/photo-1667372393086-9d4001d51cf1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGVzNiUyMGphdmFzY3JpcHQlMjBpbWd8ZW58MHx8MHx8fDA%3D",
+    "title": "Exploring the Unknown",
+    "author": "Bob Brown",
+    "author_img": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fHww",
+    "posted_date": "2024-03-12",
+    "reading_time": 15,
+    "hashtags": [
+      "exploration",
+      "discovery",
+      "curiosity"
+    ]
+  },
+  {
+    "id": 3,
+    "cover": "https://media.istockphoto.com/id/1332612761/photo/the-smart-city-of-futuristic-technology-internet-and-big-data-5g-connection-technology.webp?b=1&s=170667a&w=0&k=20&c=5H8uHvEUGsdyCMlVqSxuliJ5HJM3Td6HItj-kQjrB4c=",
+    "title": "Infinite Possibilities",
+    "author": "Jessica Martinez",
+    "author_img": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXZhdGFyfGVufDB8fDB8fHww",
+    "posted_date": "2024-03-11",
+    "reading_time": 12,
+    "hashtags": [
+      "possibilities",
+      "potential",
+      "imagination"
+    ]
+  },
+  {
+    "id": 4,
+    "cover": "https://media.istockphoto.com/id/1490859962/photo/power-soft-skills-multi-skills-responsibility-hr-human-resources-concept-personal-attribute.webp?b=1&s=170667a&w=0&k=20&c=_L8c0kaRc7qW3h5u_JUBvdkwSr3hoBYx3EZeYywjoyc=",
+    "title": "The Art of Creativity",
+    "author": "David Rodriguez",
+    "author_img": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D",
+    "posted_date": "2024-03-10",
+    "reading_time": 20,
+    "hashtags": [
+      "creativity",
+      "art",
+      "innovation"
+    ]
+  },
+  {
+    "id": 5,
+    "cover": "https://media.istockphoto.com/id/1007981330/photo/abstract-background-of-technology-science-and-cloud-computer-3d-illustration.jpg?s=612x612&w=0&k=20&c=uxIHYKhxt_XVZ7AXikYgdsJU-u535eAWE0ppCoXOH9g=",
+    "title": "Unlocking Your Potential",
+    "author": "Sophia Hernandez",
+    "author_img": "https://plus.unsplash.com/premium_photo-1664541336816-2a2987114ca4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D",
+    "posted_date": "2024-03-09",
+    "reading_time": 18,
+    "hashtags": [
+      "potential",
+      "self-improvement",
+      "growth"
+    ]
+  },
+  {
+    "id": 6,
+    "cover": "https://media.istockphoto.com/id/1452604857/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.webp?b=1&s=170667a&w=0&k=20&c=iJp6e2C-l2lRmyG3ColHMpXe0QYrPnrfQQc2O6PsYC4=",
+    "title": "The Power of Resilience",
+    "author": "Michael Wilson",
+    "author_img": "https://images.unsplash.com/photo-1628157588553-5eeea00af15c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D",
+    "posted_date": "2024-03-08",
+    "reading_time": 14,
+    "hashtags": [
+      "resilience",
+      "strength",
+      "perseverance"
+    ]
+  }
+ 
+]
